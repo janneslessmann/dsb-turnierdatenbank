@@ -1,0 +1,25 @@
+{
+  "name": "dsb-turnierdatenbank",
+  "version": "1.0.0",
+  "description": "Scraping the tournament database of the DSB",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon — exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janneslessmann/dsb-turnierdatenbank.git"
+  },
+  "author": "janneslessmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janneslessmann/dsb-turnierdatenbank/issues"
+  },
+  "homepage": "https://github.com/janneslessmann/dsb-turnierdatenbank#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
